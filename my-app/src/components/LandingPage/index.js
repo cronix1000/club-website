@@ -11,7 +11,8 @@ function ProjectDisplay(props){
     return(
         <ProjectsContainer className="container gap-3">
         <div className="row p-5">
-          <div className="col-sm">{props.image}</div>
+          <div className="col-sm">
+            <img src = {props.image}></img></div>
           <div className="col-sm">
             {props.text}
           </div>
